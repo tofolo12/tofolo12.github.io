@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #c0c0c0;
+    --botaao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
+}
+.principal {
+    background-image: url('cars.jpg');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container_botao {
+    background-color: #167BF7;
+    border-radius: 10%;
+    padding: 15px;
+}
