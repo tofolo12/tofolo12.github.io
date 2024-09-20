@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --branco-principal: #000000;
+    --cinza-secundario: #000000;
+    --botaao-azul: #3b70b1;
+    --cor-de-fundo: #00030c;
+}
+
+body{
+    background-color: #06ce92;
+}
+
+.principal {
+    background-image: url('tinker.jpg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   height: 600px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao {
+    background-color: #06ce92;
+    border-radius: 10%;
+    padding: 15px;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
