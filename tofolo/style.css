@@ -3,14 +3,14 @@
     padding: 0;
 }
 :root {
-    --branco-principal: #000000;
-    --cinza-secundario: #000000;
-    --botaao-azul: #3b70b1;
-    --cor-de-fundo: #00030c;
+    --branco-principal: #ffffff;
+    --cinza-secundario: #777777;
+    --botaao-azul: #252525;
+    --cor-de-fundo: #000000;
 }
 
 body{
-    background-color: #06ce92;
+    background-color: #384941;
 }
 
 .principal {
@@ -28,7 +28,7 @@ body{
 }
 
 .container_botao {
-    background-color: #06ce92;
+    background-color: #3a856c;
     border-radius: 10%;
     padding: 15px;
     color: var(--branco-principal);
@@ -38,4 +38,13 @@ body{
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+.container_titulo {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--branco-principal);
+}
+.container_aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
 }
